@@ -1,0 +1,1487 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+/* -------NavBar------------ */
+
+.navbarcontainer {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 234px 0px #0000000d;
+}
+
+.navitems {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+  margin: auto;
+  list-style-type: none;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #1d2b53;
+}
+
+.homebutton {
+  border-radius: 50px;
+  padding: 5px 24px 8px 24px;
+  background-color: #dfd1ee;
+}
+
+.navbtn {
+  border-radius: 50px;
+  margin: 8px;
+  padding: 5px 30px;
+  border: solid 1px black;
+  font-size: small;
+}
+
+.navtripace {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.userprofile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.username {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 5px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 2px 0 10px;
+  color: #06031e;
+}
+
+.accountype {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 5px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #adaaaf;
+}
+
+.navpic {
+  margin-right: 10px;
+}
+
+/* -----------------Footer----------------- */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bigsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.smallsection {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.footertitle {
+  margin-right: 250px;
+  align-self: center;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  margin: 25px;
+}
+
+.form {
+  margin-top: 45px;
+  padding: 10px;
+  padding-top: 0;
+  /* align-self: center; */
+}
+
+.forminput {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(0deg, #c9c5ca, #c9c5ca);
+  border: 1px solid #c9c5ca;
+  border-radius: 50px;
+  padding: 6px;
+}
+
+.formi {
+  flex-grow: 2;
+  border: none;
+  width: 50px;
+  margin-left: 4px;
+}
+
+.formi:focus {
+  outline: none;
+}
+
+.formi:focus-visible {
+  outline: none;
+}
+
+.forminput:focus-within {
+  outline: 1px solid blue;
+}
+
+.buttonq {
+  border: 1px solid black;
+  color: white;
+  border-radius: 50px;
+  z-index: 1;
+  background-color: black;
+  margin: 0;
+  padding: 10px 30px;
+  font-size: small;
+}
+
+.footer {
+  background-color: #280274;
+  color: azure;
+}
+
+.footer a {
+  color: azure;
+  text-decoration: none;
+}
+
+.footer li {
+  padding: 10px 0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.aligntitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Body welcome Div */
+.imgdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10%;
+  height: auto;
+  width: auto;
+  background-color: #efecec;
+}
+
+.airport {
+  height: 500px;
+  width: 50%;
+  border-radius: 300px 0 0 20px;
+}
+
+.imgword {
+  height: 570px;
+  width: 40%;
+  padding: 70px 0 0 70px;
+  align-self: center;
+}
+
+.welcome {
+  width: 300px;
+  height: 36px;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fd632f;
+}
+
+.wemake {
+  width: 560px;
+  height: 128px;
+  font-family: "Raleway", sans-serif;
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #06031e;
+}
+
+.organise {
+  color: #fd632f;
+}
+
+.wecover {
+  width: 497px;
+  height: 81px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #3a383c;
+}
+
+.bodybtn {
+  width: 180px;
+  height: 50px;
+  padding: 13px 28px 20px 28px;
+  border-radius: 30px;
+  gap: 10px;
+  background-color: #06031e;
+  color: #ffffff;
+}
+
+/* ------------------------------------------------- */
+
+.virtual {
+  width: auto;
+  height: auto;
+  border-radius: 100px;
+  box-shadow: 0 0 213px 0 #fd632f0d inset;
+}
+
+.smallvirtual {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: 950.4px;
+  gap: 29px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.topvirtual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 564px;
+  height: 296px;
+}
+
+.getstarted {
+  width: 175px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 30px;
+  gap: 10px;
+  background-color: #06031e;
+  color: #ffffff;
+}
+
+.access {
+  width: 564px;
+  height: 128px;
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #06031e;
+}
+
+.imagine {
+  width: 515px;
+  height: 81px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #3a383c;
+}
+
+.traveldiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: 568px;
+  border-radius: 100px;
+  background: #ffffff;
+  box-shadow: 0px 0px 213px 0px #00aaf81a inset;
+  margin: 50px 0 50px 0;
+}
+
+.travel {
+  width: 515px;
+  height: 281px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.inspiration {
+  width: 396px;
+  height: 64px;
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #06031e;
+}
+
+.wehelp {
+  width: 515px;
+  height: 81px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #3a383c;
+}
+
+.whatpeople {
+  width: 500px;
+  height: 200px;
+  font-family: "Raleway", sans-serif;
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: auto;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.radius {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.radius1 {
+  background-color: grey;
+}
+
+.radius2 {
+  background-color: black;
+}
+
+.floatitems {
+  position: relative;
+  margin-bottom: 20px;
+  padding-top: 0;
+  height: auto;
+}
+
+.custom {
+  width: 400px;
+  height: 310px;
+  position: absolute;
+  display: inline-block;
+  left: 80px;
+  top: 180px;
+  color: red;
+  margin: 20px;
+  filter: url(#round);
+}
+
+.custom::before {
+  width: 400px;
+  height: 320px;
+  content: "";
+  display: block;
+  padding-top: 86.6%;
+  padding-right: 95%;
+  background-image: url("./images/Screenshot.png");
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.floatright {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+  width: 800px;
+  height: 325px;
+  margin: 10px 0 50px 300px;
+  padding: 10px 0 50px 260px;
+  background-color: #ffffff;
+  border-radius: 0 50px 50px 0;
+  box-shadow: 0px 0px 213px 0px #3130330d inset;
+}
+
+.star {
+  width: 450px;
+  padding-top: 20px;
+}
+
+.thereare {
+  padding-right: 50px;
+}
+
+.radiusarrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* -------Authenticate---------------------- */
+
+.authdiv {
+  display: flex;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.transparentdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.accountpic {
+  width: 30%;
+  height: 100%;
+}
+
+.whitebox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 80%;
+  height: 92%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 58px 0px #0000001a;
+}
+
+.whitebox > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 80%;
+  height: 90%;
+}
+
+.tripace {
+  width: 131px;
+  height: 64px;
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #06031e;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.welcometo {
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3a383c;
+}
+
+.googlefacebook {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.googlefacebookbtn {
+  width: 500px;
+  border-radius: 20px;
+  padding: 10px;
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(0deg, #c9c5ca, #c9c5ca);
+  border: 1px solid #c9c5ca;
+}
+
+.divider {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.divider::before,
+.divider::after {
+  flex: 1;
+  content: "";
+  padding: 0.9px;
+  background-color: #c9c5ca;
+  margin: 0 30px 0 30px;
+}
+
+.createyour {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #3a383c;
+  padding: 0 130px;
+}
+
+.formblock {
+  display: block;
+}
+
+#email,
+#password {
+  height: 42px;
+  width: 500px;
+  border-radius: 10px;
+  color: #000000;
+  border: 1px solid #66666659;
+  margin: 2px 0 15px 0;
+}
+
+.checkboxcontainer {
+  padding: 5px 120px 10px 38px;
+}
+
+#thecheckbox {
+  float: left;
+  position: relative;
+  top: 15px;
+  margin-right: 15px;
+}
+
+.thecheckboxlabel {
+  margin: 10px 20px 5px 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3a383c;
+  overflow: hidden;
+}
+
+span {
+  color: #fd632f;
+}
+
+.forgetpassword {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #fd632f;
+  margin-top: -15px;
+}
+
+.creatediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.labelflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.iconpadding {
+  align-self: flex-end;
+  padding: 0;
+  margin: 0;
+}
+
+/* -------------Userbody--------------- */
+.usercontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.userdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px auto 30px;
+  padding: 10px 10px 10px 2px;
+  border-radius: 38px;
+  border: 1px solid #c9c5ca;
+  gap: 10px;
+  width: 470px;
+}
+
+.navlist {
+  padding-left: 2px;
+}
+
+.userwelcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0;
+  padding: 0;
+  position: relative;
+  margin: auto;
+}
+
+.bigwelcome {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 530px;
+}
+
+.bigwelcomesmall {
+  width: 416px;
+}
+
+.welcomename {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.wherewouldyou {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.topimages {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.topimage {
+  position: absolute;
+  z-index: 1;
+  left: 110px;
+  top: 50px;
+}
+
+.flipimage {
+  transform: scaleY(-1);
+}
+
+.userbodyform {
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(0deg, #c9c5ca, #c9c5ca);
+}
+
+.ordoyou {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #06031e;
+}
+
+.radiodiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.radio {
+  width: 258px;
+  height: 40px;
+  padding: 8px 14px 4px 16px;
+  border-radius: 12px;
+  color: #66666659;
+  border: 1px solid #66666659;
+  text-align: center;
+}
+
+.radioobject {
+  border: 2.67px solid #aba0fb;
+  background: linear-gradient(0deg, #aba0fb, #aba0fb),
+    linear-gradient(0deg, #d9d9d9, #d9d9d9);
+}
+
+/*--------------------------TOOLS------------------- */
+
+.alltools {
+  margin: 80px 80px;
+}
+
+.toolslogo {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #06031e;
+  margin-bottom: 20px;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: flex-start;
+}
+
+.tool {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  background-color: #ffffff;
+  width: 338px;
+  height: 213px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 156px 0px #0000000a;
+}
+
+.firsttool {
+  width: 8px;
+  height: 212px;
+  border-radius: 14px 0px 0px 14px;
+}
+
+.secondtool {
+  width: 249px;
+  height: 195px;
+}
+
+.toolimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 15px 0px #00000012;
+  background-color: #ffffff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 10px 10px;
+}
+
+.travelinspiration {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #06031e;
+  margin-bottom: 3px;
+}
+
+.generate {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+.toolarrow {
+  border: 1.14px solid #ffffff;
+  margin: 17px 10px;
+}
+
+/* --------------------------Trip------------------------ */
+
+.tripcontainer {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 80px;
+}
+
+.tripfirstdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.recentact {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #06031e;
+  margin-bottom: 15px;
+}
+
+.triplist {
+  display: flex;
+  flex-direction: row;
+  gap: 128px;
+  align-items: flex-start;
+  border-bottom: 1px solid #adaaaf;
+  width: 950px;
+  margin-bottom: 50px;
+  padding-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.tripline {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.tripline:hover {
+  border-bottom: 1.5px solid red;
+}
+
+.tripseconddiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1120px;
+  height: 355px;
+  border-radius: 20px;
+  background-color: #ebe5ff;
+}
+
+.tripsecondinnerdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.youdonthave {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.youcansee {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+/* ---------------------Location-------------------------- */
+
+.viewalldiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
+  margin: 20px 80px 5px;
+}
+
+.recommend {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  align-self: flex-end;
+}
+
+.viewall {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.locationcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30px;
+  margin: 10px 0 20px 80px;
+}
+
+.locationdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 250px;
+  border-radius: 20px;
+  padding: 75px;
+}
+
+.ontario {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  margin: 8px;
+}
+
+.describe {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.locationbtn {
+  width: 150px;
+  height: 45px;
+  padding: 10px 28px 13px 28px;
+  border-radius: 50px;
+  margin: 8px 0 0 0;
+}
+
+/*------------------------Bookings---------------- */
+
+.bookingform {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.bookingpicdiv {
+  position: relative;
+  width: 308px;
+  height: 650px;
+}
+
+.arrowback {
+  position: absolute;
+  z-index: 1;
+  top: 32px;
+  left: 80px;
+}
+
+.bookingdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bookingheader {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+}
+
+.headerword {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.howcan {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.givebrief {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 415px;
+  height: 54px;
+}
+
+.step {
+  margin-top: 20px;
+}
+
+.flightstep {
+  margin-left: 135px;
+}
+
+.tellus {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+select {
+  width: 500px;
+  height: 35px;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+select:invalid {
+  color: gray;
+}
+
+.selectp {
+  margin: 3px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #666666;
+}
+
+.bookinginputs {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-start;
+  gap: 20px;
+  width: 760px;
+  height: 350px;
+  padding: 31px 80px 31px 80px;
+  border-radius: 30px;
+  margin-left: 80px;
+  box-shadow: 0px 4px 120px 0px #0000000a;
+  background-color: #ffffff;
+}
+
+.bookingbtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+/* ------------------Flights Options--------------------- */
+
+.steptwospecial {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  margin: 30px 0;
+}
+
+.optionword {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.filterword {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #79767a;
+}
+
+.availableflights {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.airlinewhite {
+  display: flex;
+  justify-content: center;
+  width: 812px;
+  height: 292px;
+  padding: 32px 32px 28px 32px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 156px 0px #0000000a;
+  background-color: #ffffff;
+}
+
+.flightdiv {
+  height: 280px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.airlinediv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.airlinelogo {
+  width: 72px;
+  height: 72px;
+  padding: 16px 13px 16px 13px;
+  border-radius: 59px;
+  background-color: #f4eff4;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  /* border-radius: 50%; */
+}
+
+.airlinestime {
+  display: flex;
+  flex-direction: column;
+  width: 436px;
+  height: 228px;
+  gap: 20px;
+}
+
+.firsttime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.united {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.timebold {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333e5;
+}
+
+.timethin {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333e5;
+}
+
+.amountdiv {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  height: 210px;
+  gap: 80px;
+  padding-left: 20px;
+
+  /* Create left border */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(131, 82, 253, 0.5) 30%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: left;
+  background-size: 1.5px 15px;
+  background-repeat: repeat-y;
+}
+
+.recommendbtn {
+  width: 122px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 38px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #4b287a;
+  background-color: #f6e9ff;
+}
+
+.amount {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #28196f;
+}
+
+.bookflightbtn {
+  width: 134px;
+  height: 39px;
+  padding: 10px 28px 15px 28px;
+  border-radius: 30px;
+  background-color: #06031e;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*----------------------- Hotel Options-------------*/
+.hotels {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.filteroptions {
+  display: flex;
+  flex-direction: row;
+  gap: 85px;
+  border-bottom: 1px solid #adaaaf;
+}
+.filteroption {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 2px;
+}
+
+.filteroption:hover {
+  color: #fd632f;
+  border-bottom: 2px solid #fd632f;
+}
+
+.bookhotel {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  width: 770px;
+  height: 292px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 156px 0px #0000000a;
+  background-color: #ffffff;
+}
+
+.hotelimage {
+  width: 239px;
+  height: 292px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+.hotel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 306px;
+  height: 232px;
+}
+
+.hotelandamountdiv {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+}
+.hotelname {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.hotelmenu {
+  display: flex;
+  flex-flow: column wrap;
+  width: 306px;
+  height: 136px;
+  align-content: flex-start;
+  justify-content: flex-start;
+  column-gap: 30px;
+  row-gap: 13px;
+}
+
+.hotelmenulist {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #333333e5;
+}
+.hotelrating {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.ratingword {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3a383c;
+}
+
+.viewdetails {
+  color: #fd632f;
+}
+
+/* -------Airport Taxi---------  */
+
+.airporttaxidiv {
+  display: flex;
+  justify-content: center;
+  width: 812px;
+  height: 287px;
+  padding: 32px 80px 32px 80px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 156px 0px #0000000a;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.airporttaxi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 652px;
+  height: 223px;
+}
+.pickup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pickuplocation,
+.pickupdate,
+.pickupperson {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.basedon {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.pickupthin {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.pickupbold {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.cartype {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+}
