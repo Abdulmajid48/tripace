@@ -17,13 +17,14 @@ function Tripsummary() {
         givebrief={
           "Choose a taxi from the available TripAce airport taxi generated for you."
         }
-        step={<span className="flightstep">Skip</span>}
+        step={<span className="flightstep">Save & Pay later</span>}
         airline={
           <div>
             {airlines
               .filter((airline) => airline.id === 1)
               .map((airline, index) => (
                 <Airlineschedule
+                  added={true}
                   key={index}
                   location={airline.location}
                   currenttime={airline.currenttime}
@@ -43,6 +44,7 @@ function Tripsummary() {
               .map((hotel, index) => {
                 return (
                   <Hotelschedule
+                    added={true}
                     key={index}
                     img={hotel.img}
                     amount={hotel.amount}
@@ -55,17 +57,20 @@ function Tripsummary() {
         }
         taxi={
           <div className="hotels">
-            {taxis.filter(taxi => taxi.id===1).map((taxi, index) => {
-              return (
-                <Airporttaxiquality
-                  key={index}
-                  img={taxi.img}
-                  amount={taxi.amount}
-                  taxiquality={taxi.taxiquality}
-                  btn={taxi.btn}
-                />
-              );
-            })}
+            {taxis
+              .filter((taxi) => taxi.id === 1)
+              .map((taxi, index) => {
+                return (
+                  <Airporttaxiquality
+                    added={true}
+                    key={index}
+                    img={taxi.img}
+                    amount={taxi.amount}
+                    taxiquality={taxi.taxiquality}
+                    btn={taxi.btn}
+                  />
+                );
+              })}
           </div>
         }
       />

@@ -30,19 +30,6 @@ function Bodyparts(props) {
   );
 }
 
-//  function RoundedPentagon() {
-//   return (
-//     <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-//       <defs>
-//         <clipPath id="roundedPentagonClip">
-//           <polygon points="100,0 200,75 160,200 40,200 0,75" />
-//         </clipPath>
-//       </defs>
-//       <image xlinkHref="./images.Ellipse.png" width="200" height="200" clipPath="url(#roundedPentagonClip)" />
-//     </svg>
-//   );
-// };
-
 function Tools(props) {
   return (
     <div className="tool">
@@ -55,7 +42,6 @@ function Tools(props) {
         <p className="generate">{props.description}</p>
       </div>
       <div>
-        {" "}
         <img className="toolarrow" src={props.arrow} alt="" />
       </div>
     </div>
@@ -109,12 +95,23 @@ function Bookingform(props) {
             <div className="howcan">{props.howcan}</div>
             <div className="givebrief">{props.givebrief}</div>
           </div>
-          <div className="step">{props.step}</div>
+          <div
+            className="step"
+            style={{
+              color: props.travelinspiration ? "#8966BB" : null,
+              marginLeft: props.travelinspiration ? "90px" : null,
+            }}
+          >
+            {props.step}
+          </div>
         </div>
         <div className="bookings">
           <div
             className="bookinginputs"
-            style={{ display: props.bookings ? null : "none" }}
+            style={{
+              display: props.bookings ? null : "none",
+              marginTop: props.travelinspiration ? "50px" : null,
+            }}
           >
             <div className="tellus">{props.destination}</div>
             <div class="custom-select">
@@ -182,7 +179,13 @@ function Flight(props) {
 
 function Airlineschedule(props) {
   return (
-    <div className="airlinewhite">
+    <div
+      className="airlinewhite"
+      style={{
+        width: props.added ? "840px" : null,
+        marginBottom: props.added ? "20px" : null,
+      }}
+    >
       <div className="flightdiv">
         <div className="airlinediv">
           <div className="airlinelogo">Airline Logo</div>
@@ -202,7 +205,7 @@ function Airlineschedule(props) {
               <div className="timethin">0 Stop</div>
             </div>
             <div className="location">
-              <div className="timebold">{props.arrivaltime}</div>
+              <div className="timebold">{props.arrival}</div>
               <div className="timethin">{props.destination}</div>
             </div>
           </div>
@@ -231,7 +234,14 @@ function Airlineschedule(props) {
             </div>
             <div className="amount">{props.amount}</div>
           </div>
-          <div className="bookflightbtn">Book Flight</div>
+          {!props.added ? (
+            <button className="bookflightbtn">Book Flight</button>
+          ) : (
+            <div className="added">
+              <div className="addedword">Added</div>
+              <div className="remove">Remove/Cancel</div>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -270,7 +280,7 @@ function Hotel(props) {
 
 function Hotelschedule(props) {
   return (
-    <div className="bookhotel">
+    <div className="bookhotel" style={{ width: props.added ? "840px" : null }}>
       <div className="hotelimage" style={{ backgroundImage: props.img }}></div>
       <div className="hotelandamountdiv">
         <div className="hotel">
@@ -305,7 +315,10 @@ function Hotelschedule(props) {
             <div className="viewdetails ratingword">View details</div>
           </div>
         </div>
-        <div className="amountdiv">
+        <div
+          className="amountdiv"
+          style={{ marginLeft: props.added ? "50px" : null }}
+        >
           <div>
             <div>
               <button
@@ -317,9 +330,16 @@ function Hotelschedule(props) {
             </div>
             <div className="amount">{props.amount}</div>
           </div>
-          <div className="bookflightbtn" style={{ marginTop: "10px" }}>
-            Book Hotel
-          </div>
+          {!props.added ? (
+            <button className="bookflightbtn" style={{ marginTop: "10px" }}>
+              Book Hotel
+            </button>
+          ) : (
+            <div className="added">
+              <div className="addedword">Added</div>
+              <div className="remove">Remove/Cancel</div>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -341,11 +361,11 @@ function Taxi(props) {
                 {props.givebrief}
               </div>
             </div>
-            <div className="step" style={{ marginLeft: "-170px" }}>
+            <div className="step" style={{ marginLeft: "-180px" }}>
               {props.step}
             </div>
           </div>
-          <div className="airporttaxidiv" style={{ width: "865px" }}>
+          <div className="airporttaxidiv" style={{ width: "860px" }}>
             <div className="airporttaxi">
               <div className="basedon">Based on your Flights & Hotel</div>
               <div className="pickup">
@@ -379,7 +399,7 @@ function Taxi(props) {
 
 function Airporttaxiquality(props) {
   return (
-    <div className="bookhotel" style={{ width: "865px" }}>
+    <div className="bookhotel" style={{ width: "840px" }}>
       <div className="hotelimage" style={{ backgroundImage: props.img }}></div>
       <div className="hotelandamountdiv">
         <div className="hotel" style={{ width: "350px" }}>
@@ -424,9 +444,16 @@ function Airporttaxiquality(props) {
           <div>
             <div className="amount">{props.amount}</div>
           </div>
-          <div className="bookflightbtn" style={{ marginTop: "10px" }}>
-            Book Taxi
-          </div>
+          {!props.added ? (
+            <button className="bookflightbtn" style={{ marginTop: "10px" }}>
+              Book Taxi
+            </button>
+          ) : (
+            <div className="added">
+              <div className="addedword">Added</div>
+              <div className="remove">Remove/Cancel</div>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -450,13 +477,40 @@ function Summary(props) {
                 {props.givebrief}
               </div>
             </div>
-            <div className="step" style={{ marginLeft: "-175px" }}>
+            <div className="step" style={{ marginLeft: "-265px" }}>
               {props.step}
             </div>
           </div>
-          {props.airline}
-          {props.hotelschedule}
-          {props.taxi}
+          <div className="tripsummary">
+            {props.airline}
+            {props.hotelschedule}
+            {props.taxi}
+          </div>
+          <div className="summary">
+            <div className="paymentsummary">Payment Summary</div>
+            <div className="summarydiv">
+              <div className="payment" style={{ border: "none" }}>
+                <p>Flight</p>
+                <p>#20,400</p>
+              </div>
+              <div className="payment">
+                <p>Hotel</p>
+                <p>#20,400</p>
+              </div>
+              <div className="payment">
+                <p>Taxi</p>
+                <p>#20,400</p>
+              </div>
+              <div className="payment total">
+                <p>Total</p>
+                <p>#20,400</p>
+              </div>
+            </div>
+            <div className="summarybtn">
+              <button className="addvisapayment">Add Visa Payment</button>
+              <button className="checkout">Checkout</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

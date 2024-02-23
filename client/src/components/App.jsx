@@ -9,6 +9,7 @@ import Flights from "../pages/Flights";
 import Hotels from "../pages/Hotels";
 import Airporttaxi from "../pages/Airporttaxi";
 import Tripsummary from "../pages/Tripsummary";
+import Travelinspiration, { Travelinspiration2 } from "../pages/Travelinspiration";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <Route path="/hotels" element={<Hotels />} />
       <Route path="/airporttaxi" element={<Airporttaxi />} />
       <Route path="/tripsummary" element={<Tripsummary />} />
+      <Route path="/travelinspiration" element={<Travelinspiration />} />
+      <Route path="/travelinspiration2" element={<Travelinspiration2 />} />
 
       {/* <Route path="*" element={<NoMatch />} /> */}
     </Routes>

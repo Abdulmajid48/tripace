@@ -23,7 +23,7 @@ function Userbody() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="" className="navlink">
+            <NavLink to="/travelinspiration" className="navlink">
               Visa
             </NavLink>
           </li>

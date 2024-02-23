@@ -105,5 +105,64 @@ function Homenavbar(params) {
   );
 }
 
+function Inspirationbar(props) {
+  return (
+    <div>
+      <Navbar
+        tripace={"TRIPACE"}
+        navoptions={
+          <div>
+            <ul className=" navitems">
+              <li>
+                <NavLink to="" className="homebutton navlink">
+                  Dashboard
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="" className="navlink">
+                  Pricing
+                </NavLink>
+              </li>
+              <li>
+                <a className="navlink" href="www.google.com">
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a className="navlink" href="www.google.com">
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </div>
+        }
+        userprofile={
+          <div>
+            <ul className=" navitems">
+              <li>
+                <NavLink to="" className=" navlink">
+                  <img src="./images/notifications.svg" alt="" />
+                </NavLink>
+              </li>
+              <li>
+                <div className="navlink userprofile">
+                  <p className="username">Maleek A.</p>
+                  <p className="accountype">Free account</p>
+                </div>
+              </li>
+              <li>
+                <NavLink to="" className="navlink navpic">
+                  <img src="./images/profilepic.svg" alt="" />
+                </NavLink>
+                <img src="./images/vectorblack.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+        }
+      />
+    </div>
+  );
+}
+
 export default Authnavbar;
-export { Homenavbar };
+export { Homenavbar, Inspirationbar };
