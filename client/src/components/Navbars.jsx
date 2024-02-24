@@ -57,7 +57,7 @@ function Authnavbar() {
   );
 }
 
-function Homenavbar(params) {
+function Homenavbar(props) {
   return (
     <Navbar
       tripace={"TRIPACE"}
@@ -66,7 +66,7 @@ function Homenavbar(params) {
           <ul className=" navitems">
             <li>
               <NavLink to="/" className="homebutton navlink">
-                Home
+                {props.itinerary ? "Dashboard" : " Home"}
               </NavLink>
             </li>
             <li>
@@ -114,24 +114,24 @@ function Inspirationbar(props) {
           <div>
             <ul className=" navitems">
               <li>
-                <NavLink to="" className="homebutton navlink">
+                <NavLink to="" className=" navlink">
                   Dashboard
                 </NavLink>
               </li>
               <li>
-                <NavLink to="" className="navlink">
-                  Pricing
+                <NavLink to="/flights" className="navlink">
+                  Flights
                 </NavLink>
               </li>
               <li>
-                <a className="navlink" href="www.google.com">
-                  FAQ
-                </a>
+                <NavLink to="/hotels" className="navlink">
+                  Hotels
+                </NavLink>
               </li>
               <li>
-                <a className="navlink" href="www.google.com">
-                  Blog
-                </a>
+                <NavLink to="/travelinspiration" className="navlink">
+                  Visa
+                </NavLink>
               </li>
             </ul>
           </div>

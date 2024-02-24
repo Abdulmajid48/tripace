@@ -9,7 +9,12 @@ import Flights from "../pages/Flights";
 import Hotels from "../pages/Hotels";
 import Airporttaxi from "../pages/Airporttaxi";
 import Tripsummary from "../pages/Tripsummary";
-import Travelinspiration, { Travelinspiration2 } from "../pages/Travelinspiration";
+import Travelinspiration, {
+  Travelinspiration2,
+} from "../pages/Travelinspiration";
+import Travelideas from "../pages/Travelideas";
+import Montreal from "../pages/Montreal";
+import Itinerary from "../pages/Itinerary";
 
 function App() {
   return (
@@ -27,6 +32,9 @@ function App() {
       <Route path="/tripsummary" element={<Tripsummary />} />
       <Route path="/travelinspiration" element={<Travelinspiration />} />
       <Route path="/travelinspiration2" element={<Travelinspiration2 />} />
+      <Route path="/travelideas" element={<Travelideas />} />
+      <Route path="/montreal" element={<Montreal />} />
+      <Route path="/itinerary" element={<Itinerary />} />
 
       {/* <Route path="*" element={<NoMatch />} /> */}
     </Routes>

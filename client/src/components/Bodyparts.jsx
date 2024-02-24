@@ -42,7 +42,9 @@ function Tools(props) {
         <p className="generate">{props.description}</p>
       </div>
       <div>
-        <img className="toolarrow" src={props.arrow} alt="" />
+        <NavLink to={props.link}>
+          <img className="toolarrow" src={props.arrow} alt="" />
+        </NavLink>
       </div>
     </div>
   );
@@ -72,12 +74,22 @@ function Location(props) {
   return (
     <div
       className="locationdiv"
-      style={{ backgroundImage: `url(${props.img})` }}
+      style={{
+        backgroundImage: `url(${props.img})`,
+        width: props.montreal ? "958px" : null,
+        height: props.montreal ? "355px" : null,
+        gap: props.montreal ? "30px" : null,
+      }}
     >
       <div className="ontario">{props.name}</div>
       <div className="describe">{props.description}</div>
       <div>
-        <button className="locationbtn">{props.btn}</button>
+        <button
+          className="locationbtn"
+          style={{ backgroundColor: props.montreal ? "#FFFFFF" : null }}
+        >
+          {props.btn}
+        </button>
       </div>
     </div>
   );
@@ -516,6 +528,57 @@ function Summary(props) {
     </div>
   );
 }
+
+function Travelidea(props) {
+  return (
+    <div>
+      <div className="bookingform">
+        <div className="bookingpicdiv" style={{ backgroundImage: props.img }}>
+          <img className="arrowback" src="./images/arrowback.svg" alt="" />
+        </div>
+        <div className="bookingdiv">
+          <div className="bookingheader">
+            <div className="headerword">
+              <div className="howcan">{props.howcan}</div>
+              <div className="givebrief" style={{ width: "600px" }}>
+                {props.givebrief}
+              </div>
+            </div>
+          </div>
+          <div className="travelideas">{props.idea}</div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Idea(props) {
+  return (
+    <div className="travelideadiv">
+      <div className="montreal"> {props.city}</div>
+      <div>
+        <p className="accomodation">Accommodation:</p>
+        <ul className="lists">
+          <li>{props.accomodation}</li>
+        </ul>
+      </div>
+      <div>
+        <p className="accomodation">Highlights:</p>
+        <ul className="lists">
+          <li>{props.highlight1}</li>
+          <li>{props.highlight2}</li>
+          <li>{props.highlight3}</li>
+        </ul>
+      </div>
+      <NavLink to={props.link}>
+        <div className="learnmore">
+          <span>Learn More</span> <img src="./images/redarrow.svg" alt="" />
+        </div>
+      </NavLink>
+    </div>
+  );
+}
+
 export default Bodyparts;
 export {
   Tools,
@@ -529,4 +592,6 @@ export {
   Taxi,
   Airporttaxiquality,
   Summary,
+  Travelidea,
+  Idea,
 };

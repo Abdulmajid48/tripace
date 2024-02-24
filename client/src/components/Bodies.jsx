@@ -36,6 +36,7 @@ const tripaceTools = [
       "Generate a range of inspiration of where to go with the plan of your trip.",
     color: "#FD632F",
     arrow: "./images/arrow.svg",
+    link: "/travelinspiration",
   },
   {
     id: 2,
@@ -45,6 +46,7 @@ const tripaceTools = [
       "Generate an itinerary(tour guide) based on your interests and preferences.",
     color: "#06031E",
     arrow: "./images/arrow.svg",
+    link: "/itinerary",
   },
   {
     id: 3,
@@ -54,6 +56,7 @@ const tripaceTools = [
       "Find the best flights, discounts and hidden offers so you can bring your dream trips to life.",
     color: "#AE9CC4",
     arrow: "./images/arrow.svg",
+    link: "/flights",
   },
 ];
 
@@ -259,6 +262,43 @@ const taxis = [
   },
 ];
 
+const travelideas = [
+  {
+    id: 1,
+    city: "Montreal",
+    accomodation:
+      "Hotel 10 Montreal, located right in the center of downtown Montreal",
+    highlights1:
+      " Explore the incredible Old Montreal, a 500-year-old neighborhood",
+    highlights2:
+      "Take a cruise along the St. Lawrence River and admire the beautiful skyline",
+    highlights3:
+      " Sample the local cuisine in one of Montreal's many restaurants",
+    link: "/montreal",
+  },
+  {
+    id: 2,
+    city: "Quebec City",
+    accomodation:
+      "Château Frontenac, a historic hotel with spectacular views of the city",
+    highlights1:
+      "Stroll through the cobblestoned streets of the UNESCO World Heritage Site of Old Quebec",
+    highlights2: "Explore the incredible architectural heritage of the city",
+    highlights3:
+      "Visit Parc de la Chute-Montmorency, for breathtaking views of the St. Lawrence River",
+  },
+  {
+    id: 3,
+    city: "Laurentians",
+    accomodation:
+      "Mont Tremblant Resort, located in a stunning mountain setting",
+    highlights1: "Explore the stunning lakes and lush forests of the region",
+    highlights2:
+      " Enjoy a unique outdoor adventure, such as whitewater rafting or snowmobiling",
+    highlights3: " Sample the local wines and cheeses of the Laurentians",
+  },
+];
+
 export default bodies;
 export {
   tripaceTools,
@@ -270,5 +310,6 @@ export {
   dates,
   airlines,
   hotels,
-  taxis
+  taxis,
+  travelideas,
 };

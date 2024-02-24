@@ -8,7 +8,7 @@ function Userbody() {
       <div className="userdiv">
         <ul className=" navitems navlist">
           <li>
-            <NavLink to="" className="homebutton navlink">
+            <NavLink to="/travelideas" className="homebutton navlink">
               Dashboard
             </NavLink>
           </li>
@@ -95,6 +95,7 @@ function Userbody() {
                   img={tool.obj}
                   arrow={tool.arrow}
                   color={tool.color}
+                  link={tool.link}
                 />
               );
             })}
