@@ -2,7 +2,7 @@
 
 # Frontend Mentor - Todo app solution
 
-This is a 17  pages [TripAce Website](https://abdulmajid48.github.io/tripace/). A Flight booking platform offering seamless flight reservations along with convenient options for taxi services and hotel accommodations. 
+This is a 17  pages [TripAce Website](https://tripace.vercel.app/). A Flight booking platform offering seamless flight reservations along with convenient options for taxi services and hotel accommodations. 
 
 ## Table of contents
 
@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Github URL: [Git Hub](https://github.com/Abdulmajid48/tripace.git)
-- Live Site URL: [Website](https://abdulmajid48.github.io/tripace/)
+- Live Site URL: [Website](https://tripace.vercel.app/)
 
 ## My process
 
