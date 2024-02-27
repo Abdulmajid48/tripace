@@ -5,7 +5,7 @@ import bodies from "./Bodies";
 // Home Page Body Elements
 function Body() {
   return (
-    <div>
+    <div className="general">
       <div className="imgdiv">
         <div className="imgword">
           <p className="welcome">WELCOME TO TRIPACE</p>
