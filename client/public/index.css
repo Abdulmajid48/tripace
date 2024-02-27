@@ -57,7 +57,6 @@ body {
 }
 
 .username {
-  font-family: Raleway;
   font-size: 16px;
   font-weight: 600;
   line-height: 5px;
@@ -68,7 +67,6 @@ body {
 }
 
 .accountype {
-  font-family: Raleway;
   font-size: 14px;
   font-weight: 400;
   line-height: 5px;
@@ -88,6 +86,15 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+
+ @media  (max-width: 500px) {
+     .footer{
+      width: 300dvw;
+     }
+     .navbarcontainer{
+      width: 300dvw;
+     }
+  }
 
 .bigsection {
   display: flex;
@@ -123,7 +130,6 @@ footer ul {
   margin-top: 45px;
   padding: 10px;
   padding-top: 0;
-  /* align-self: center; */
 }
 
 .forminput {
