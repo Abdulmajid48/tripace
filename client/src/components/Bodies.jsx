@@ -1,3 +1,4 @@
+// Home Page Contents
 const bodies = [
   {
     id: 1,
@@ -27,6 +28,7 @@ const bodies = [
   },
 ];
 
+// Tripacetools Contents
 const tripaceTools = [
   {
     id: 1,
@@ -60,6 +62,7 @@ const tripaceTools = [
   },
 ];
 
+// Authorised User Page Contents
 const trips = [
   {
     id: 1,
@@ -87,6 +90,7 @@ const trips = [
   },
 ];
 
+// Authorised User Page Contents
 const locations = [
   {
     id: 1,
@@ -106,6 +110,7 @@ const locations = [
   },
 ];
 
+// Dropdown contents for Countries
 const countries = [
   "Oliver Hansen",
   "Van Henry",
@@ -119,6 +124,7 @@ const countries = [
   "Kelly Snyder",
 ];
 
+// Dropdown contents for States
 const states = [
   "Oliver Hansen",
   "Van Henry",
@@ -131,6 +137,8 @@ const states = [
   "Virginia Andrews",
   "Kelly Snyder",
 ];
+
+// Dropdown contents for Cities
 const cities = [
   "Oliver Hansen",
   "Van Henry",
@@ -144,6 +152,7 @@ const cities = [
   "Kelly Snyder",
 ];
 
+// Dropdown contents for Date
 const dates = [
   "Oliver Hansen",
   "Van Henry",
@@ -157,6 +166,7 @@ const dates = [
   "Kelly Snyder",
 ];
 
+// Flight Page Content
 const airlines = [
   {
     id: 1,
@@ -199,7 +209,7 @@ const airlines = [
     btn: "Recommended",
   },
 ];
-
+// Hotel Page Content
 const hotels = [
   {
     id: 1,
@@ -231,6 +241,7 @@ const hotels = [
   },
 ];
 
+// Airport Taxi Page contents
 const taxis = [
   {
     id: 1,
@@ -262,6 +273,7 @@ const taxis = [
   },
 ];
 
+// Travel Ideas Page content
 const travelideas = [
   {
     id: 1,

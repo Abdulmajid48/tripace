@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 
+
+// Main Nav Bar
 function Navbar(props) {
   return (
     <div>

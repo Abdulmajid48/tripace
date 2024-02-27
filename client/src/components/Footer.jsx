@@ -1,6 +1,5 @@
 import React from "react";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faFacebookF } from '@fortawesome/free-solid-svg-icons'
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   const date = new Date();
@@ -17,7 +16,9 @@ function Footer() {
                 <img src="./images/Facebook.svg" alt="" />
                 <img src="./images/Group.svg" alt="" />
                 <img src="./images/logos_youtube.svg" alt="" />
-                <img src="./images/twitter.svg" alt="" />
+                <NavLink to="https://www.twitter.com/aladejanaamajid">
+                  <img src="./images/twitter.svg" alt="" />
+                </NavLink>
               </div>
             </div>
             <div className="bigsection">
@@ -25,24 +26,24 @@ function Footer() {
                 <div className="section">
                   <ul className="">
                     <li className="">
-                      <a href="www.google.com" className="nav-link ">
+                      <NavLink to="" className="nav-link ">
                         About us
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="">
-                      <a href="www.google.com" className="nav-link ">
+                      <NavLink to="" className="nav-link ">
                         FAQ
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="">
-                      <a href="www.google.com" className="nav-link ">
+                      <NavLink to="" className="nav-link ">
                         Blog
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="">
-                      <a href="www.google.com" className="nav-link ">
+                      <NavLink to="" className="nav-link ">
                         Pricing
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
@@ -50,24 +51,24 @@ function Footer() {
                 <div className="section">
                   <ul className="">
                     <li className=" ">
-                      <a href="www.google.com" className="nav-link ">
+                      <NavLink to="" className="nav-link ">
                         Legal
-                      </a>
+                      </NavLink>
                     </li>
                     <li className=" ">
-                      <a href="www.google.com" className="nav-link ">
+                      <NavLink to="" className="nav-link ">
                         Cookies
-                      </a>
+                      </NavLink>
                     </li>
                     <li className=" ">
-                      <a href="www.google.com" className="nav-link ">
+                      <NavLink to="" className="nav-link ">
                         Privacy Policy
-                      </a>
+                      </NavLink>
                     </li>
                     <li className=" ">
-                      <a href="www.google.com" className="nav-link ">
+                      <NavLink to="" className="nav-link ">
                         Contact Us
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
@@ -75,24 +76,27 @@ function Footer() {
                 <div className="section">
                   <ul className="">
                     <li className="">
-                      <a href="www.google.com" className="nav-link">
+                      <NavLink to="" className="nav-link">
                         Legal
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="">
-                      <a href="www.google.com" className="nav-link">
+                      <NavLink to="" className="nav-link">
                         Cookies
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="">
-                      <a href="www.google.com" className="nav-link">
+                      <NavLink to="" className="nav-link">
                         Privacy Policy
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="">
-                      <a href="www.google.com" className="nav-link">
+                      <NavLink
+                        to="https://www.twitter.com/aladejanaamajid"
+                        className="nav-link"
+                      >
                         Contact Us
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
@@ -125,19 +129,19 @@ function Footer() {
             <p>© {year} Company, Inc. All rights reserved.</p>
             <ul className="list-unstyled d-flex">
               <li className="ms-3">
-                <a className="link-body-emphasis" href="www.google.com">
+                <NavLink to="" className="link-body-emphasis">
                   <svg className="bi" width="24" height="24"></svg>
-                </a>
+                </NavLink>
               </li>
               <li className="ms-3">
-                <a className="link-body-emphasis" href="www.google.com">
+                <NavLink to="" className="link-body-emphasis">
                   <svg className="bi" width="24" height="24"></svg>
-                </a>
+                </NavLink>
               </li>
               <li className="ms-3">
-                <a className="link-body-emphasis" href="www.google.com">
+                <NavLink className="link-body-emphasis">
                   <svg className="bi" width="24" height="24"></svg>
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>

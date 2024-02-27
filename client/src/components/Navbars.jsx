@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "./Nav";
 
+// Authorised User NavBar ---- Authouser
 function Authnavbar() {
   return (
     <div>
@@ -57,6 +58,7 @@ function Authnavbar() {
   );
 }
 
+// Home page nav bar
 function Homenavbar(props) {
   return (
     <Navbar
@@ -75,14 +77,14 @@ function Homenavbar(props) {
               </NavLink>
             </li>
             <li>
-              <a className="navlink" href="www.google.com">
+              <NavLink to="" className="navlink">
                 FAQ
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a className="navlink" href="www.google.com">
+              <NavLink to="" className="navlink">
                 Blog
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -105,6 +107,7 @@ function Homenavbar(props) {
   );
 }
 
+// Travel Inspiration NavBar
 function Inspirationbar(props) {
   return (
     <div>

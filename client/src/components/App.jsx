@@ -15,6 +15,7 @@ import Travelinspiration, {
 import Travelideas from "../pages/Travelideas";
 import Montreal from "../pages/Montreal";
 import Itinerary from "../pages/Itinerary";
+import NoMatch from "../pages/NoMatch";
 
 function App() {
   return (
@@ -35,8 +36,8 @@ function App() {
       <Route path="/travelideas" element={<Travelideas />} />
       <Route path="/montreal" element={<Montreal />} />
       <Route path="/itinerary" element={<Itinerary />} />
-
-      {/* <Route path="*" element={<NoMatch />} /> */}
+      {/* route to any page not listed here */}
+      <Route path="*" element={<NoMatch />} />
     </Routes>
   );
 }

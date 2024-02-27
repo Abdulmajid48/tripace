@@ -69,7 +69,7 @@ function Montreal(props) {
             <div className="montrealbox">
               <img
                 className="montrealboximg"
-                 src="./images/montrealroom.svg"
+                src="./images/montrealroom.svg"
                 alt=""
               />
               <div className="montrealhotel">Hotels</div>

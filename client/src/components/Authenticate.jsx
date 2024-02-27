@@ -3,15 +3,18 @@ import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import IconButton from "@mui/material/IconButton";
 
+// Google and Facebook register Page
+
 function Authenticate(props) {
   const [showPassword, setShowpassword] = useState(false);
 
+  // change password from Password case to  text case
   function handlePassword() {
     setShowpassword((prevValue) => {
       return !prevValue;
     });
   }
-
+  // prevent page from reloading when hide button is pressed
   function handleMouseDownPassword(event) {
     event.preventDefault();
   }

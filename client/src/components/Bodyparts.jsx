@@ -1,9 +1,11 @@
 import { NavLink } from "react-router-dom";
 
 function Bodyparts(props) {
+  // Home page Body elements
   return (
     <div
       className="traveldiv"
+      // change the second div direction to row-reverse
       style={{ flexDirection: props.id !== 3 ? "row" : "row-reverse" }}
     >
       <div>
@@ -31,6 +33,7 @@ function Bodyparts(props) {
 }
 
 function Tools(props) {
+  // Tripace tools component
   return (
     <div className="tool">
       <div className="firsttool" style={{ backgroundColor: props.color }}></div>
@@ -51,6 +54,7 @@ function Tools(props) {
 }
 
 function Trip(props) {
+  // Ongoing trip and recent trips
   return (
     <div className="tripcontainer">
       <div className="tripfirstdiv">
@@ -71,6 +75,7 @@ function Trip(props) {
 }
 
 function Location(props) {
+  // Recommended trip for you
   return (
     <div
       className="locationdiv"
@@ -96,6 +101,7 @@ function Location(props) {
 }
 
 function Bookingform(props) {
+  // My Bookings Page
   return (
     <div className="bookingform">
       <div className="bookingpicdiv" style={{ backgroundImage: props.img }}>
@@ -161,6 +167,7 @@ function Bookingform(props) {
 }
 
 function Flight(props) {
+  // Flight Page
   return (
     <div>
       <div className="bookingform">
@@ -190,6 +197,7 @@ function Flight(props) {
 }
 
 function Airlineschedule(props) {
+  // Flight Page Schedule
   return (
     <div
       className="airlinewhite"
@@ -261,6 +269,7 @@ function Airlineschedule(props) {
 }
 
 function Hotel(props) {
+  // Hotel Page
   return (
     <div>
       <div className="bookingform">
@@ -291,6 +300,7 @@ function Hotel(props) {
 }
 
 function Hotelschedule(props) {
+  // Hotel Page Schedule
   return (
     <div className="bookhotel" style={{ width: props.added ? "840px" : null }}>
       <div className="hotelimage" style={{ backgroundImage: props.img }}></div>
@@ -359,6 +369,7 @@ function Hotelschedule(props) {
 }
 
 function Taxi(props) {
+  // Taxi Page
   return (
     <div>
       <div className="bookingform">
@@ -410,6 +421,7 @@ function Taxi(props) {
 }
 
 function Airporttaxiquality(props) {
+  // Taxi Page Schedule
   return (
     <div className="bookhotel" style={{ width: "840px" }}>
       <div className="hotelimage" style={{ backgroundImage: props.img }}></div>
@@ -473,6 +485,7 @@ function Airporttaxiquality(props) {
 }
 
 function Summary(props) {
+  // Cart Page
   return (
     <div>
       <div className="bookingform">
@@ -530,6 +543,7 @@ function Summary(props) {
 }
 
 function Travelidea(props) {
+  // Travel Ideas --- Dashboard
   return (
     <div>
       <div className="bookingform">
@@ -553,6 +567,7 @@ function Travelidea(props) {
 }
 
 function Idea(props) {
+  // Travel Idea Div
   return (
     <div className="travelideadiv">
       <div className="montreal"> {props.city}</div>

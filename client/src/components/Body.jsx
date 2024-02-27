@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import Bodyparts from "./Bodyparts";
 import bodies from "./Bodies";
 
+// Home Page Body Elements
 function Body() {
   return (
     <div>

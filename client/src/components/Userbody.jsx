@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom";
 import { Location, Tools, Trip } from "./Bodyparts";
 import { trips, tripaceTools, locations } from "./Bodies";
 
+// Authouser Page Body
+
 function Userbody() {
   return (
     <div>
