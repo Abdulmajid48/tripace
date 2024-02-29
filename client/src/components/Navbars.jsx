@@ -65,24 +65,28 @@ function Homenavbar(props) {
       tripace={"TRIPACE"}
       navoptions={
         <div>
-          <ul className=" navitems">
-            <li>
-              <NavLink to="/" className="homebutton navlink">
+          <ul class="navbar-nav navitems">
+            <li class="nav-item">
+              <NavLink
+                to="/"
+                className="homebutton nav-link"
+                aria-current="page"
+              >
                 {props.itinerary ? "Dashboard" : " Home"}
               </NavLink>
             </li>
-            <li>
-              <NavLink to="" className="navlink">
+            <li class="nav-item">
+              <NavLink to="" className="nav-link">
                 Pricing
               </NavLink>
             </li>
-            <li>
-              <NavLink to="" className="navlink">
+            <li class="nav-item">
+              <NavLink to="" className="nav-link ">
                 FAQ
               </NavLink>
             </li>
-            <li>
-              <NavLink to="" className="navlink">
+            <li class="nav-item">
+              <NavLink to="" className="nav-link">
                 Blog
               </NavLink>
             </li>

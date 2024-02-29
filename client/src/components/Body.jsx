@@ -7,7 +7,7 @@ function Body() {
   return (
     <div className="general">
       <div className="imgdiv">
-        <div className="imgword">
+        <div className="imgword smallsize">
           <p className="welcome">WELCOME TO TRIPACE</p>
           <p className="wemake">
             We Make <span className="organise">Organising Your Trip</span>{" "}
@@ -22,7 +22,7 @@ function Body() {
             <button className="bodybtn">Get started here</button>
           </NavLink>
         </div>
-        <img className="airport" src="./images/imageairpot.jpg" alt=""></img>
+        <img className="airport" src="./images/imageairpot.jpg" alt="" />
       </div>
       <div className="virtual">
         <div className="smallvirtual">
