@@ -8,7 +8,7 @@ function Bodyparts(props) {
       // change the second div direction to row-reverse
       style={{ flexDirection: props.id !== 3 ? "row" : "row-reverse" }}
     >
-      <div>
+      <div className="travelimg">
         <img src={props.img} alt="" />
       </div>
       <div

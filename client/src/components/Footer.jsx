@@ -48,7 +48,7 @@ function Footer() {
                   </ul>
                 </div>
 
-                <div className="section">
+                <div className="section section2">
                   <ul className="">
                     <li className=" ">
                       <NavLink to="" className="nav-link ">

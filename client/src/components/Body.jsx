@@ -38,8 +38,8 @@ function Body() {
               <button className="getstarted">Get Started</button>
             </NavLink>
           </div>
-          <div className="bigdashboard">
-            <img src="./images/Dashboard.svg" alt="" />
+          <div className="bigdashboad">
+            <img className="bigdashboard" src="./images/Dashboard.svg" alt="" />
           </div>
         </div>
       </div>
@@ -89,7 +89,11 @@ function Body() {
             </defs>
           </svg>
           <div className="floatright">
-            <img className="star" src="./images/star.png" alt="" />
+            <div className="star">
+              <img src="./images/quote.jpg" alt="" />
+              <img src="./images/rating.svg" alt="" />
+            </div>
+
             <p className="thereare">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
