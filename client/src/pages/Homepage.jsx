@@ -4,7 +4,7 @@ import { Homenavbar } from "../components/Navbars";
 
 function Homepage() {
   return (
-    <div>
+    <div className="general">
       <Homenavbar />
       <Body />
       <Footer />

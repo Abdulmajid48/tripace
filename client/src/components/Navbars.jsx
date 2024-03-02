@@ -94,7 +94,7 @@ function Homenavbar(props) {
         </div>
       }
       userprofile={
-        <div>
+        <div className="oldnew">
           <NavLink to="/olduser">
             <button className="btn btn-light navbtn" type="submit">
               Sign up

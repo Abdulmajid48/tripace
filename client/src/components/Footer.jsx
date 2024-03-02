@@ -23,7 +23,7 @@ function Footer() {
             </div>
             <div className="bigsection">
               <div className="smallsection">
-                <div className="section">
+                <div className="section deletesections">
                   <ul className="">
                     <li className="">
                       <NavLink to="" className="nav-link ">
@@ -48,7 +48,7 @@ function Footer() {
                   </ul>
                 </div>
 
-                <div className="section">
+                <div className="section deletesections">
                   <ul className="">
                     <li className=" ">
                       <NavLink to="" className="nav-link ">
@@ -75,12 +75,12 @@ function Footer() {
 
                 <div className="section">
                   <ul className="">
-                    <li className="">
+                    <li className="deletesections">
                       <NavLink to="" className="nav-link">
                         Legal
                       </NavLink>
                     </li>
-                    <li className="">
+                    <li className="deletesections">
                       <NavLink to="" className="nav-link">
                         Cookies
                       </NavLink>
@@ -127,7 +127,7 @@ function Footer() {
 
           <div className="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top copyright">
             <p>© {year} Company, Inc. All rights reserved.</p>
-            <ul className="list-unstyled d-flex">
+            <ul className="list-unstyled d-flex deletesections">
               <li className="ms-3">
                 <NavLink to="" className="link-body-emphasis">
                   <svg className="bi" width="24" height="24"></svg>
