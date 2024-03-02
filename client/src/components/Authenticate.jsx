@@ -38,7 +38,7 @@ function Authenticate(props) {
               <p className="createyour">{props.create}</p>
             </div>
             {props.googlefacebook}
-            <form>
+            <form className="form">
               <label className="formblock" for="email">
                 {props.email}
               </label>
@@ -51,7 +51,7 @@ function Authenticate(props) {
               />
               <label className="formblock labelflex" for="password">
                 <p className="iconpadding">{props.password}</p>
-                <p className="iconpadding">
+                <p className="iconpadding iconpadding1">
                   <IconButton
                     aria-label="toggle password visibility"
                     size="small"
