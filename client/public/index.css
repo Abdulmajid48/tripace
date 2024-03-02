@@ -18,7 +18,7 @@ body {
   }
 
   .offcanvas {
-    width: 40% !important;
+    width: 70% !important;
   }
 
   div .oldnew {
@@ -141,10 +141,10 @@ body {
   }
 
   div .wehelp {
-    margin: 60px auto 0;
+    margin: 30px auto 0;
   }
   div .getstarted {
-    margin-top: 10px;
+    margin-bottom: -35px;
   }
   div .floatitems {
     width: 100dvw;
