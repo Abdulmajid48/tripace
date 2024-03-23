@@ -180,8 +180,12 @@ body {
     width: 100%;
     flex-direction: column;
   }
+
+  div .footer {
+    justify-content: space-between;
+  }
   div .footertitle {
-    margin: 10px 10px 0 0;
+    margin: 10px 10px 0 30px;
     align-self: flex-start;
   }
 
@@ -507,7 +511,7 @@ footer ul {
 
 .airport {
   height: 500px;
-  flex-basis: 50%;
+  width: 40%;
   border-radius: 300px 0 0 20px;
 }
 
@@ -515,7 +519,7 @@ footer ul {
   display: flex;
   flex-direction: column;
   height: 570px;
-  flex-basis: 40%;
+  width: 30%;
   padding: 70px 0 0 70px;
   align-self: center;
   flex-shrink: 1;
