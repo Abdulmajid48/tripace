@@ -153,8 +153,9 @@ body {
   div .whatpeople {
     height: 40px;
     margin-top: 90px;
-    max-width: 80%;
+    max-width: 80;
   }
+
   div div .floatright {
     margin: 40px;
     width: auto;

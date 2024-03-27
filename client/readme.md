@@ -1,8 +1,6 @@
 # TripAce Website
 
-# Frontend Mentor - Todo app solution
-
-This is a 17  pages [TripAce Website](https://tripace.vercel.app/). A Flight booking platform offering seamless flight reservations along with convenient options for taxi services and hotel accommodations. 
+This is a 17 pages [TripAce Website](https://tripace.vercel.app/). A Flight booking platform offering seamless flight reservations along with convenient options for taxi services and hotel accommodations.
 
 ## Table of contents
 
@@ -17,9 +15,7 @@ This is a 17  pages [TripAce Website](https://tripace.vercel.app/). A Flight boo
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-
 ## Overview
-
 
 Users should be able to:
 
@@ -47,22 +43,18 @@ Users should be able to:
 - [material UI](https://mui.com/)
 - [Google fonts](https://fonts.google.com/)
 
-
 ### What I learned
 
-React BrowserRouter 
-
-
+React BrowserRouter
 
 ### Continued development
 
 Tailwind CSS
 Next.js
 
-
 ### Useful resources
 
-- [Stackoverflow](https://www.stackoverflow.com) 
+- [Stackoverflow](https://www.stackoverflow.com)
 
 ## Author
 
